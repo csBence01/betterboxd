@@ -5,10 +5,11 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:Betterboxd_IVTWAU"
     Title="Betterboxd_IVTWAU">
+    xmlns:views="clr-namespace:Betterboxd_IVTWAU.Views"
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+
+    <ShellContent Title="Filmnapló"
+              ContentTemplate="{DataTemplate views:MovieListPage}"
+              Route="MovieListPage" />
 
 </Shell>
